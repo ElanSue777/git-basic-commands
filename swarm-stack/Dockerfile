@@ -7,7 +7,7 @@ ADD . /code
 # Set working directory for subsequent commands
 WORKDIR /code
 
-# Install dependencies
+# Install dependencies and Branch Test
 # Test Clone
 RUN pip install -r requirements.txt
 
